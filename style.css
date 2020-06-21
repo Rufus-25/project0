@@ -1,0 +1,144 @@
+/* Created Using Easy HTML v1.4.1 */
+/* https://play.google.com/store/apps/details?id=ak.andro.easyhtml */
+body {
+background-color:white;
+}
+
+header {
+background-color:rgb(20,1,80);
+background-color:rgba(20,1,80,0.65);
+height:300px; padding:15px; margin:5px;
+border-bottom:5px red solid;
+border-right:5px red solid;
+border-bottom-right-radius:20px;
+border-bottom-left-radius:20px;
+margin-bottom:100px;
+}
+
+h1 {
+text-align:center; font-weight:bold;
+font-family:font-family:Haettenschweiler, Impact, Fantasy;
+font-size:80px; margin-bottom:5px;
+text-shadow:2px 2px 2px red;
+color:white; 
+}
+
+p#motto {
+color:white; text-align:right;
+padding:10px; font-style:italic;
+}
+
+nav {
+border-radius:15px; margin:5px;
+background-color:rgba(20,1,80,0.15);
+width:95%; color:white;
+}
+
+header nav ul {
+text-align:center; padding:20px;
+color:white;
+}
+header nav ul li {
+display:inline; font-size:30px;
+padding:20px;
+}
+header nav ul li a {
+color:white; text-decoration:none;
+}
+a#current_page {
+color:blue;
+}
+
+/*header ends*/
+
+div {
+background-color:#efefef; margin:20px;
+background-color:hsla(170,1%,98.8%,0.3);
+margin-top:50px; padding:10px;
+border-radius:7px;
+}
+
+div h2 {
+font-size:60px; margin:20px;
+font-family:Vercana, Sans-Serif;
+color:rgb(185,179,300);
+padding:20px; text-align:left
+}
+
+div p {
+text-indent:60px; font-size:20px;
+font-family:Arial, Sans-Serif;
+text-align:justify;
+margin-top:30px;
+}
+
+p.more {
+text-align:right; color:rgb(8,5,450);
+font-size:10px;
+}
+
+div#in_action{
+text-align:center;
+}
+div#in_action img {
+height:800px; float:center;
+}
+
+figcaption {
+font-style:oblique; font-size:10px;
+text-align: center;
+}
+
+table, th, td {
+padding:20px; font-size:24px;
+border-bottom:2px solid white;
+border-collapse:collapse;
+border-right:2px solid white;
+}
+
+table th {
+background-color:rgb(20,150,320);
+background-color:hsl(1,1%,80%)
+}
+
+table tr.odd {
+background-color:rgb(20,150,320);
+background-color:hsl(1,1%,90%);
+}
+
+table td a {
+font-size:26px; font-weight:bold;
+}
+
+div#convener {
+text-align:center;
+}
+div#convener img {
+height:800px;
+}
+
+div#coming_soon {
+text-align:center;
+width:98%;
+}
+div#coming_soon img {
+width:500px; float: center; padding:0.7%;
+margin:2px;
+}
+
+/** content ends here**/
+
+footer {
+background-color:rgba(100,0,200,0.5);
+height:; text-align:center;
+}
+
+footer ul li {
+display:block; padding:30px;
+text-align:center;
+}
+footer ul li a {
+color:white; font-size:30px;
+text-decoration:none;
+}
+
